@@ -1,18 +1,27 @@
 name: gerarman_activities
-description: "A new Flutter project for my activities assignment."
+description: A new Flutter project demonstrating EdgeInsets configurations using clean, DRY code structure.
+
+# Prevents accidental publishing to pub.dev
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.13.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-# Add this exact section to enable your icons and image file:
+  # Useful standard icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Flutter Lints for clean code practices
+  flutter_lints: ^3.0.0
+
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/strawberrypavlova.jpg
